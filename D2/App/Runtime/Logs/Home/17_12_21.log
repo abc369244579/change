@@ -1,0 +1,2352 @@
+[ 2017-12-21T14:46:54+08:00 ] 14.219.243.14 /D2/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_friend_ship` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_friend_ship` WHERE `status` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_type` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_type` WHERE `name` = '男装' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `pid` = 22  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_banner` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_banner` WHERE `status` = 1 LIMIT 5   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `name` = '女装' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `pid` = 23  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name` FROM `shop_type` WHERE `pid` = 0  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_ads` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_ads` WHERE `status` = 1 ORDER BY id desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_ads` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user_auths` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_user_auths` WHERE `login_name` = 2200143602 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000265s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000282s ]
+
+[ 2017-12-21T14:46:54+08:00 ] 14.219.243.14 /D2/Home/ShopCar/shopcar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000238s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `shop_goods_info` [ RunTime:0.0002s ]
+SQL: SELECT `name`,`givescore`,`pic`,`status` FROM `shop_goods` WHERE `id` = 155 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`gid`,`attr`,`price` FROM `shop_goods_info` WHERE `id` = 189 LIMIT 1   [ RunTime:0.0041s ]
+
+[ 2017-12-21T14:46:56+08:00 ] 14.219.243.14 /D2/Home/ShopCar/shopcar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000259s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `shop_goods_info` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`givescore`,`pic`,`status` FROM `shop_goods` WHERE `id` = 155 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`gid`,`attr`,`price` FROM `shop_goods_info` WHERE `id` = 189 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-12-21T14:46:57+08:00 ] 14.219.243.14 /D2/Home/ShopCar/shopcar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `shop_goods_info` [ RunTime:0.0002s ]
+SQL: SELECT `name`,`givescore`,`pic`,`status` FROM `shop_goods` WHERE `id` = 155 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`gid`,`attr`,`price` FROM `shop_goods_info` WHERE `id` = 189 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005107s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005122s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000251s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000267s ]
+
+[ 2017-12-21T14:50:14+08:00 ] 14.219.243.14 /D2/Home/ShopCar/shopcar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `shop_goods_info` [ RunTime:0.0002s ]
+SQL: SELECT `name`,`givescore`,`pic`,`status` FROM `shop_goods` WHERE `id` = 155 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`gid`,`attr`,`price` FROM `shop_goods_info` WHERE `id` = 189 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005193s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000282s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000299s ]
+
+[ 2017-12-21T14:50:32+08:00 ] 14.219.243.14 /D2/Home/ShopCar/shopcar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `shop_goods_info` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`givescore`,`pic`,`status` FROM `shop_goods` WHERE `id` = 155 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`gid`,`attr`,`price` FROM `shop_goods_info` WHERE `id` = 189 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005230s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000270s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000287s ]
+
+[ 2017-12-21T14:51:46+08:00 ] 14.219.243.14 /D2/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000243s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_friend_ship` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_friend_ship` WHERE `status` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_type` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_type` WHERE `name` = '男装' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `pid` = 22  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_banner` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_banner` WHERE `status` = 1 LIMIT 5   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `name` = '女装' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `pid` = 23  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name` FROM `shop_type` WHERE `pid` = 0  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_ads` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_ads` WHERE `status` = 1 ORDER BY id desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_ads` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010583s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000254s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000273s ]
+
+[ 2017-12-21T14:51:48+08:00 ] 14.219.243.14 /D2/Home/ShopCar/shopcar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `shop_goods_info` [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: data /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 53 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 53 行.
+
+[ 2017-12-21T14:51:48+08:00 ] 14.219.243.14 /D2/Home/ShopCar/shopcar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `shop_goods_info` [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: data /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 53 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 53 行.
+
+[ 2017-12-21T14:51:53+08:00 ] 14.219.243.14 /D2/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000239s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_friend_ship` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_friend_ship` WHERE `status` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_type` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_type` WHERE `name` = '男装' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `pid` = 22  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_banner` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_banner` WHERE `status` = 1 LIMIT 5   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `name` = '女装' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `pid` = 23  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name` FROM `shop_type` WHERE `pid` = 0  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_ads` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_ads` WHERE `status` = 1 ORDER BY id desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_ads` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010629s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010646s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000278s ]
+
+[ 2017-12-21T14:51:53+08:00 ] 14.219.243.14 /D2/Home/ShopCar/shopcar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `shop_goods_info` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: data /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 53 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 53 行.
+
+[ 2017-12-21T14:51:53+08:00 ] 14.219.243.14 /D2/Home/ShopCar/shopcar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `shop_goods_info` [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: data /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 53 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 53 行.
+
+[ 2017-12-21T14:51:54+08:00 ] 14.219.243.14 /D2/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000043s ]
+NOTIC: [8] Undefined index: vali_wrong_time /usr/local/apache/htdocs/D2/App/Runtime/Cache/Home/f9efffcb1f8dad4a722859c04e23de24.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000237s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000262s ]
+
+[ 2017-12-21T14:51:58+08:00 ] 14.219.243.14 /D2/Home/Index/showQQ.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /usr/local/apache/htdocs/D2/Api/Connect2.1/API/qqConnectAPI.php 第 2 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000264s ]
+
+[ 2017-12-21T14:52:05+08:00 ] 14.219.243.14 /D2/Home/Index/doQQLogin?code=1437EC555A39267E73D5BDACE98F6581&state=352adb489b62807a1c07073b069fafa9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000249s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /usr/local/apache/htdocs/D2/Api/Connect2.1/API/qqConnectAPI.php 第 2 行.
+
+[ 2017-12-21T14:53:48+08:00 ] 14.219.243.14 /D2/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000251s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_friend_ship` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_friend_ship` WHERE `status` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_type` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_type` WHERE `name` = '男装' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `pid` = 22  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_banner` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_banner` WHERE `status` = 1 LIMIT 5   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `name` = '女装' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `pid` = 23  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name` FROM `shop_type` WHERE `pid` = 0  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_ads` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_ads` WHERE `status` = 1 ORDER BY id desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_ads` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010734s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010752s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000311s ]
+
+[ 2017-12-21T14:54:10+08:00 ] 14.219.243.14 /D2/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_friend_ship` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_friend_ship` WHERE `status` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_type` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_type` WHERE `name` = '男装' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `pid` = 22  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_banner` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_banner` WHERE `status` = 1 LIMIT 5   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `name` = '女装' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `pid` = 23  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name` FROM `shop_type` WHERE `pid` = 0  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_ads` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_ads` WHERE `status` = 1 ORDER BY id desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_ads` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010611s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010630s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000311s ]
+
+[ 2017-12-21T14:54:26+08:00 ] 14.219.243.14 /D2/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_friend_ship` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_friend_ship` WHERE `status` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_type` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_type` WHERE `name` = '男装' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `pid` = 22  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_banner` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_banner` WHERE `status` = 1 LIMIT 5   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `name` = '女装' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `pid` = 23  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name` FROM `shop_type` WHERE `pid` = 0  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_ads` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_ads` WHERE `status` = 1 ORDER BY id desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_ads` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010567s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000276s ]
+
+[ 2017-12-21T14:54:27+08:00 ] 14.219.243.14 /D2/Home/ShopCar/shopcar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000249s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `shop_goods_info` [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: data /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 53 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 53 行.
+
+[ 2017-12-21T14:54:29+08:00 ] 14.219.243.14 /D2/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000046s ]
+NOTIC: [8] Undefined index: vali_wrong_time /usr/local/apache/htdocs/D2/App/Runtime/Cache/Home/f9efffcb1f8dad4a722859c04e23de24.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003417s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000265s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000280s ]
+
+[ 2017-12-21T14:54:31+08:00 ] 14.219.243.14 /D2/Home/Index/showQQ.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /usr/local/apache/htdocs/D2/Api/Connect2.1/API/qqConnectAPI.php 第 2 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000262s ]
+
+[ 2017-12-21T14:54:38+08:00 ] 14.219.243.14 /D2/Home/Index/doQQLogin?code=0A7FFCCB3773C29CEF14750B982565D3&state=26e395805120ba5e874e0fd796e7df23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /usr/local/apache/htdocs/D2/Api/Connect2.1/API/qqConnectAPI.php 第 2 行.
+
+[ 2017-12-21T14:57:53+08:00 ] 14.219.243.14 /D2/Home/Index/doQQLogin?code=9C47F3E653FD5AA73761F24F3361468D&state=26e395805120ba5e874e0fd796e7df23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000238s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /usr/local/apache/htdocs/D2/Api/Connect2.1/API/qqConnectAPI.php 第 2 行.
+
+[ 2017-12-21T14:57:54+08:00 ] 14.219.243.14 /D2/Home/Index/doQQLogin?code=E3C1DE21859E89C35E6EB4ACE081320E&state=26e395805120ba5e874e0fd796e7df23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /usr/local/apache/htdocs/D2/Api/Connect2.1/API/qqConnectAPI.php 第 2 行.
+
+[ 2017-12-21T14:57:57+08:00 ] 14.219.243.14 /D2/Home/Index/doQQLogin?code=8B02D6D99A36CF5F0B7C9A392D55902B&state=26e395805120ba5e874e0fd796e7df23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /usr/local/apache/htdocs/D2/Api/Connect2.1/API/qqConnectAPI.php 第 2 行.
+
+[ 2017-12-21T14:57:57+08:00 ] 14.219.243.14 /D2/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000237s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000045s ]
+NOTIC: [8] Undefined index: vali_wrong_time /usr/local/apache/htdocs/D2/App/Runtime/Cache/Home/f9efffcb1f8dad4a722859c04e23de24.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003196s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003211s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000238s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000252s ]
+
+[ 2017-12-21T14:57:57+08:00 ] 14.219.243.14 /D2/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_friend_ship` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_friend_ship` WHERE `status` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_type` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_type` WHERE `name` = '男装' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `pid` = 22  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_banner` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_banner` WHERE `status` = 1 LIMIT 5   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `name` = '女装' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `pid` = 23  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name` FROM `shop_type` WHERE `pid` = 0  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_ads` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_ads` WHERE `status` = 1 ORDER BY id desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_ads` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011918s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000263s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000283s ]
+
+[ 2017-12-21T14:57:58+08:00 ] 14.219.243.14 /D2/Home/ShopCar/shopcar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `shop_goods_info` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: data /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 53 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 53 行.
+
+[ 2017-12-21T14:58:00+08:00 ] 14.219.243.14 /D2/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000226s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_friend_ship` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_friend_ship` WHERE `status` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_type` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_type` WHERE `name` = '男装' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `pid` = 22  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_banner` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_banner` WHERE `status` = 1 LIMIT 5   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `name` = '女装' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `pid` = 23  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name` FROM `shop_type` WHERE `pid` = 0  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_ads` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_ads` WHERE `status` = 1 ORDER BY id desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_ads` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010596s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000286s ]
+
+[ 2017-12-21T14:58:04+08:00 ] 14.219.243.14 /D2/Home/ShopCar/shopcar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `shop_goods_info` [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: data /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 53 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 53 行.
+
+[ 2017-12-21T14:58:05+08:00 ] 14.219.243.14 /D2/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000227s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000042s ]
+NOTIC: [8] Undefined index: vali_wrong_time /usr/local/apache/htdocs/D2/App/Runtime/Cache/Home/f9efffcb1f8dad4a722859c04e23de24.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003155s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000322s ]
+
+[ 2017-12-21T14:58:07+08:00 ] 14.219.243.14 /D2/Home/Login/showWeiBo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000253s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000272s ]
+
+[ 2017-12-21T14:58:25+08:00 ] 14.219.243.14 /D2/Home/Login/doWeiBo?code=51fed773a0659f49744c500a7ac1634e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+SQL: SHOW COLUMNS FROM `shop_user_auths` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user_auths` WHERE `login_name` = 2200143602 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-12-21T14:58:25+08:00 ] 14.219.243.14 /D2/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000262s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_friend_ship` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_friend_ship` WHERE `status` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_type` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_type` WHERE `name` = '男装' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `pid` = 22  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_banner` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_banner` WHERE `status` = 1 LIMIT 5   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `name` = '女装' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `pid` = 23  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name` FROM `shop_type` WHERE `pid` = 0  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_ads` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_ads` WHERE `status` = 1 ORDER BY id desc LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_ads` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user_auths` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_user_auths` WHERE `login_name` = 2200143602 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000279s ]
+
+[ 2017-12-21T14:58:26+08:00 ] 14.219.243.14 /D2/Home/ShopCar/shopcar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000227s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `shop_goods_info` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_shopcar` [ RunTime:0.0002s ]
+SQL: SELECT `shopcar` FROM `shop_shopcar` WHERE `uid` = 68 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: data /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 75 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT `role` FROM `shop_user` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-12-21T14:58:27+08:00 ] 14.219.243.14 /D2/Home/ShopCar/shopcar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000243s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `shop_goods_info` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_shopcar` [ RunTime:0.0002s ]
+SQL: SELECT `shopcar` FROM `shop_shopcar` WHERE `uid` = 68 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: data /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 75 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT `role` FROM `shop_user` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-12-21T14:58:27+08:00 ] 14.219.243.14 /D2/Home/ShopCar/shopcar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000248s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `shop_goods_info` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `shop_shopcar` [ RunTime:0.0002s ]
+SQL: SELECT `shopcar` FROM `shop_shopcar` WHERE `uid` = 68 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: data /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 75 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT `role` FROM `shop_user` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-12-21T14:58:28+08:00 ] 14.219.243.14 /D2/Home/Order/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 68  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_order` WHERE `uid` = 68 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_order` WHERE `uid` = 68 LIMIT 0,2   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_order` WHERE `uid` = 68 AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_order` WHERE `uid` = 68 AND `status` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_order` WHERE `uid` = 68 AND `status` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_order` WHERE `uid` = 68 AND `status` = 5 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000279s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000296s ]
+
+[ 2017-12-21T14:58:29+08:00 ] 14.219.243.14 /D2/Home/ShopCar/shopcar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000227s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `shop_goods_info` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_shopcar` [ RunTime:0.0003s ]
+SQL: SELECT `shopcar` FROM `shop_shopcar` WHERE `uid` = 68 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: data /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 75 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT `role` FROM `shop_user` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-12-21T14:58:29+08:00 ] 14.219.243.14 /D2/Home/Order/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 68  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_order` WHERE `uid` = 68 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_order` WHERE `uid` = 68 LIMIT 0,2   [ RunTime:0.0001s ]
+
+[ 2017-12-21T14:58:31+08:00 ] 14.219.243.14 /D2/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_friend_ship` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_friend_ship` WHERE `status` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_type` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_type` WHERE `name` = '男装' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `pid` = 22  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_banner` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_banner` WHERE `status` = 1 LIMIT 5   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `name` = '女装' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `pid` = 23  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name` FROM `shop_type` WHERE `pid` = 0  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_ads` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_ads` WHERE `status` = 1 ORDER BY id desc LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_ads` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user_auths` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_user_auths` WHERE `login_name` = 2200143602 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000280s ]
+
+[ 2017-12-21T14:58:33+08:00 ] 14.219.243.14 /D2/Home/ShopCar/shopcar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `shop_goods_info` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_shopcar` [ RunTime:0.0002s ]
+SQL: SELECT `shopcar` FROM `shop_shopcar` WHERE `uid` = 68 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: data /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 75 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT `role` FROM `shop_user` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-12-21T14:58:35+08:00 ] 14.219.243.14 /D2/Home/Index/index.html?model=hotsale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000223s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_friend_ship` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_friend_ship` WHERE `status` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_type` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_type` WHERE `name` = '男装' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `pid` = 22  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_banner` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_banner` WHERE `status` = 1 LIMIT 5   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `name` = '女装' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `pid` = 23  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name` FROM `shop_type` WHERE `pid` = 0  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_ads` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_ads` WHERE `status` = 1 ORDER BY id desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_ads` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`pic` FROM `shop_goods`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_goods` WHERE `status` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_goods` WHERE `status` = 2 ORDER BY buynum LIMIT 0,6   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_goods` WHERE `status` = 4 ORDER BY addtime LIMIT 5   [ RunTime:0.0002s ]
+
+[ 2017-12-21T14:58:35+08:00 ] 14.219.243.14 /D2/Home/Index/index.html?model=hotsale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_friend_ship` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_friend_ship` WHERE `status` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_type` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_type` WHERE `name` = '男装' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `pid` = 22  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_banner` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_banner` WHERE `status` = 1 LIMIT 5   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `name` = '女装' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `pid` = 23  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name` FROM `shop_type` WHERE `pid` = 0  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_ads` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_ads` WHERE `status` = 1 ORDER BY id desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_ads` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`pic` FROM `shop_goods`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_goods` WHERE `status` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_goods` WHERE `status` = 2 ORDER BY buynum LIMIT 0,6   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_goods` WHERE `status` = 4 ORDER BY addtime LIMIT 5   [ RunTime:0.0002s ]
+
+[ 2017-12-21T14:58:35+08:00 ] 14.219.243.14 /D2/Home/Index/getBrand.html?tid=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000227s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_brand_type` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_brand_type` WHERE `tid` = 25  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_goods` WHERE `tid` = 25  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `shop_brand` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_brand` WHERE `id` = 21 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_brand` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_brand` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_brand` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_brand` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_brand` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_brand` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-12-21T14:58:35+08:00 ] 14.219.243.14 /D2/Home/Index/getBrand.html?tid=28
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000225s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_brand_type` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_brand_type` WHERE `tid` = 28  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_goods` WHERE `tid` = 28  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `shop_brand` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_brand` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_brand` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_brand` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_brand` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_brand` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_brand` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-12-21T14:58:36+08:00 ] 14.219.243.14 /D2/Home/Goods/detail.html?id=149
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000227s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_goods_assess` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_goods_assess` WHERE `gid` = 149 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_goods_assess` WHERE `gid` = 149 ORDER BY addtime desc LIMIT 5   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+NOTIC: [8] Memcache::connect(): Server localhost (tcp 11211, udp 0) failed with: No route to host (113) /usr/local/apache/htdocs/D2/ThinkPHP/Library/Think/Cache/Driver/Memcache.class.php 第 43 行.
+NOTIC: [2] Memcache::connect(): Can't connect to localhost:11211, No route to host (113) /usr/local/apache/htdocs/D2/ThinkPHP/Library/Think/Cache/Driver/Memcache.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `shop_type` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0003s ]
+SQL: UPDATE `shop_goods` SET `clicknum`=clicknum+1 WHERE `id` = 149 [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `shop_goods_info` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `shop_goods_pic` [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: redis /usr/local/apache/htdocs/D2/App/Home/Controller/GoodsController.class.php 第 403 行.
+SQL: SELECT * FROM `shop_goods` WHERE `id` = 149 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_goods_info` WHERE `gid` = 149  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_goods_pic` WHERE `gid` = 149  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: disabled /usr/local/apache/htdocs/D2/App/Home/Controller/GoodsController.class.php 第 423 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_goods_assess` WHERE `gid` = 149 AND `feel` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_goods_assess` WHERE `gid` = 149 AND `feel` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_goods_assess` WHERE `gid` = 149 AND `feel` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user_collect` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user_collect` WHERE `gid` = 149 AND `uid` = 68  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: disabled /usr/local/apache/htdocs/D2/App/Home/Controller/GoodsController.class.php 第 452 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+NOTIC: [8] Undefined variable: search /usr/local/apache/htdocs/D2/App/Runtime/Cache/Home/d7ce7c37daad1d3e356d97433c4331e1.php 第 83 行.
+NOTIC: [8] Undefined offset: 3 /usr/local/apache/htdocs/D2/App/Runtime/Cache/Home/d7ce7c37daad1d3e356d97433c4331e1.php 第 282 行.
+NOTIC: [8] Undefined offset: 3 /usr/local/apache/htdocs/D2/App/Runtime/Cache/Home/d7ce7c37daad1d3e356d97433c4331e1.php 第 282 行.
+NOTIC: [2] Division by zero /usr/local/apache/htdocs/D2/App/Runtime/Cache/Home/d7ce7c37daad1d3e356d97433c4331e1.php 第 407 行.
+NOTIC: [2] Division by zero /usr/local/apache/htdocs/D2/App/Runtime/Cache/Home/d7ce7c37daad1d3e356d97433c4331e1.php 第 414 行.
+NOTIC: [2] Division by zero /usr/local/apache/htdocs/D2/App/Runtime/Cache/Home/d7ce7c37daad1d3e356d97433c4331e1.php 第 418 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009321s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000244s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000261s ]
+
+[ 2017-12-21T14:58:37+08:00 ] 14.219.243.14 /D2/Home/ShopCar/shopcar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `shop_goods_info` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_shopcar` [ RunTime:0.0002s ]
+SQL: SELECT `shopcar` FROM `shop_shopcar` WHERE `uid` = 68 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: data /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 75 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT `role` FROM `shop_user` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-12-21T14:58:37+08:00 ] 14.219.243.14 /D2/Home/Goods/detail.html?id=149&attr=%E9%A2%9C%E8%89%B2%3A%E8%93%9D%E8%89%B2%2C%E5%B0%BA%E7%A0%81%3A45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_goods_assess` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_goods_assess` WHERE `gid` = 149 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_goods_assess` WHERE `gid` = 149 ORDER BY addtime desc LIMIT 5   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `shop_goods_info` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_goods` WHERE `id` = 149 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_goods_info` WHERE `gid` = 149 AND `attr` = '颜色:蓝色,尺码:45' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-12-21T14:58:38+08:00 ] 14.219.243.14 /D2/Home/ShopCar/addToCart.html?gid=149&info=%E9%A2%9C%E8%89%B2%3A%E8%93%9D%E8%89%B2%2C%E5%B0%BA%E7%A0%81%3A45&buyNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+SQL: SHOW COLUMNS FROM `shop_goods_info` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`stock` FROM `shop_goods_info` WHERE `gid` = 149 AND `attr` = '颜色:蓝色,尺码:45' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `shop_shopcar` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_shopcar` WHERE `uid` = 68 LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `shop_shopcar` (`shopcar`,`uid`) VALUES ('{\"149_183\":{\"buyNum\":\"1\"}}','68') [ RunTime:0.0037s ]
+
+[ 2017-12-21T14:58:38+08:00 ] 14.219.243.14 /D2/Home/ShopCar/shopcar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `shop_goods_info` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_shopcar` [ RunTime:0.0002s ]
+SQL: SELECT `shopcar` FROM `shop_shopcar` WHERE `uid` = 68 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`givescore`,`pic`,`status` FROM `shop_goods` WHERE `id` = 149 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`gid`,`attr`,`price` FROM `shop_goods_info` WHERE `id` = 183 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT `role` FROM `shop_user` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-12-21T14:58:39+08:00 ] 14.219.243.14 /D2/Home/ShopCar/shopcar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `shop_goods_info` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_shopcar` [ RunTime:0.0002s ]
+SQL: SELECT `shopcar` FROM `shop_shopcar` WHERE `uid` = 68 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`givescore`,`pic`,`status` FROM `shop_goods` WHERE `id` = 149 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`gid`,`attr`,`price` FROM `shop_goods_info` WHERE `id` = 183 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT `role` FROM `shop_user` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-12-21T14:58:39+08:00 ] 14.219.243.14 /D2/Home/ShopCar/shopcar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `shop_goods_info` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_shopcar` [ RunTime:0.0002s ]
+SQL: SELECT `shopcar` FROM `shop_shopcar` WHERE `uid` = 68 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`givescore`,`pic`,`status` FROM `shop_goods` WHERE `id` = 149 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`gid`,`attr`,`price` FROM `shop_goods_info` WHERE `id` = 183 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT `role` FROM `shop_user` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-12-21T14:58:40+08:00 ] 14.219.243.14 /D2/Home/ShopCar/shopcar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `shop_goods_info` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_shopcar` [ RunTime:0.0029s ]
+SQL: SELECT `shopcar` FROM `shop_shopcar` WHERE `uid` = 68 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`givescore`,`pic`,`status` FROM `shop_goods` WHERE `id` = 149 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`gid`,`attr`,`price` FROM `shop_goods_info` WHERE `id` = 183 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT `role` FROM `shop_user` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005436s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005453s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000282s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000297s ]
+
+[ 2017-12-21T14:58:44+08:00 ] 14.219.243.14 /D2/Home/ShopCar/shopcar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000231s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `shop_goods_info` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `shop_shopcar` [ RunTime:0.0002s ]
+SQL: SELECT `shopcar` FROM `shop_shopcar` WHERE `uid` = 68 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`givescore`,`pic`,`status` FROM `shop_goods` WHERE `id` = 149 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`gid`,`attr`,`price` FROM `shop_goods_info` WHERE `id` = 183 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT `role` FROM `shop_user` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-12-21T14:58:44+08:00 ] 14.219.243.14 /D2/Home/ShopCar/shopcar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000288s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `shop_goods_info` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_shopcar` [ RunTime:0.0002s ]
+SQL: SELECT `shopcar` FROM `shop_shopcar` WHERE `uid` = 68 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name`,`givescore`,`pic`,`status` FROM `shop_goods` WHERE `id` = 149 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`gid`,`attr`,`price` FROM `shop_goods_info` WHERE `id` = 183 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT `role` FROM `shop_user` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-12-21T14:58:45+08:00 ] 14.219.243.14 /D2/Home/ShopCar/shopcar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `shop_goods_info` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `shop_shopcar` [ RunTime:0.0003s ]
+SQL: SELECT `shopcar` FROM `shop_shopcar` WHERE `uid` = 68 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`givescore`,`pic`,`status` FROM `shop_goods` WHERE `id` = 149 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`gid`,`attr`,`price` FROM `shop_goods_info` WHERE `id` = 183 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT `role` FROM `shop_user` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005422s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000279s ]
+
+[ 2017-12-21T14:58:50+08:00 ] 14.219.243.14 /D2/Home/Order/orderConfirm/ids/149_183
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 68  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_shopcar` [ RunTime:0.0002s ]
+SQL: SELECT `shopcar` FROM `shop_shopcar` WHERE `uid` = 68 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_goods_info` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_goods_info` WHERE `id` = 183 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_goods` WHERE `id` = 149 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_goods` WHERE `id` = 149 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user_address` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_user_address` WHERE `uid` = 68 AND `status` = 0  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user_address` WHERE `uid` = 68 AND `status` = 1  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005922s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000251s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000267s ]
+
+[ 2017-12-21T14:59:09+08:00 ] 14.219.243.14 /D2/Home/Order/newAddress.html?linkman=%E6%89%93%E7%AE%97%E6%89%93%E6%89%93%E6%92%92&phone=15816802799&address=%E6%B9%96%E5%8D%97%E5%A8%84%E5%BA%95%E5%B8%82%E6%96%B0%E5%8C%96%E5%8E%BF+%E6%89%93%E7%AE%97%E6%89%93%E7%AE%97%E6%89%93+123456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 68  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_user_address` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_user_address` WHERE `uid` = 68 LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `shop_user_address` (`linkman`,`phone`,`address`,`status`,`uid`) VALUES ('打算打打撒','15816802799','湖南娄底市新化县 打算打算打 123456','1','68') [ RunTime:0.0038s ]
+
+[ 2017-12-21T14:59:11+08:00 ] 14.219.243.14 /D2/Home/order/orderSuccess.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000292s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 68  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_shopcar` [ RunTime:0.0002s ]
+SQL: SELECT `shopcar` FROM `shop_shopcar` WHERE `uid` = 68 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_goods_info` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_goods_info` WHERE `id` = 183 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_goods` WHERE `id` = 149 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_goods` WHERE `id` = 149 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_goods` WHERE `id` = 149 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0003s ]
+SQL: INSERT INTO `shop_order` (`message`,`receiver`,`phone`,`address`,`total`,`getScore`,`addtime`,`uid`,`oid`,`exptime`) VALUES ('','打算打打撒','','湖南娄底市新化县 打算打算打 123456','333','333','1513839551','68','2017122110298525','1513925951') [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_goods_info` WHERE `gid` = 149 AND `attr` = '颜色:蓝色,尺码:45' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_detail` [ RunTime:0.0003s ]
+SQL: INSERT INTO `shop_detail` (`gid`,`attr`,`price`,`name`,`pic`,`num`,`oid`) VALUES ('149','颜色:蓝色,尺码:45','333','轻薄舒适百搭羽绒服林志颖同款 轻薄舒适 保暖羽绒服','451228_b3c2e070063ddf66708ac3601bb2db305a12b16a37f1b.jpg','1','2017122110298525') [ RunTime:0.0001s ]
+SQL: UPDATE `shop_goods_info` SET `stock`=stock-1 WHERE `id` = 183 [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_shopcar` WHERE `uid` = 68 LIMIT 1   [ RunTime:0.0001s ]
+SQL: DELETE FROM `shop_shopcar` WHERE `uid` = 68 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003953s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000256s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000271s ]
+
+[ 2017-12-21T14:59:11+08:00 ] 14.219.243.14 /D2/Home/order/theme/bank/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+
+[ 2017-12-21T14:59:14+08:00 ] 14.219.243.14 /D2/Home/Order/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000243s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 68  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_order` WHERE `uid` = 68 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_order` WHERE `uid` = 68 LIMIT 0,2   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_detail` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_detail` WHERE `oid` = '2017122110298525'  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_order` WHERE `uid` = 68 AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_order` WHERE `uid` = 68 AND `status` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_order` WHERE `uid` = 68 AND `status` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_order` WHERE `uid` = 68 AND `status` = 5 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006577s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006593s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000266s ]
+
+[ 2017-12-21T14:59:14+08:00 ] 14.219.243.14 /D2/Home/ShopCar/shopcar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000265s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `shop_goods_info` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_shopcar` [ RunTime:0.0003s ]
+SQL: SELECT `shopcar` FROM `shop_shopcar` WHERE `uid` = 68 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: data /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 75 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT `role` FROM `shop_user` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-12-21T14:59:14+08:00 ] 14.219.243.14 /D2/Home/Order/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 68  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_order` WHERE `uid` = 68 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_order` WHERE `uid` = 68 LIMIT 0,2   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_detail` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_detail` WHERE `oid` = '2017122110298525'  [ RunTime:0.0002s ]
+
+[ 2017-12-21T14:59:16+08:00 ] 14.219.243.14 /D2/Home/Order/payHome.html?mark=true&oid=2017122110298525&status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000225s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 68  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0003s ]
+SQL: UPDATE `shop_order` SET `status`='2' WHERE `oid` = '2017122110298525' [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_order` WHERE `oid` = '2017122110298525' LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `shop_user` SET `score`='333' WHERE `id` = 68 [ RunTime:0.0033s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-12-21T14:59:17+08:00 ] 14.219.243.14 /D2/Home/Order/getOrder.html?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 68  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_order` WHERE `uid` = 68 AND `status` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_order` WHERE `uid` = 68 AND `status` = 2 LIMIT 0,2   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_detail` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_detail` WHERE `oid` = '2017122110298525'  [ RunTime:0.0002s ]
+
+[ 2017-12-21T14:59:18+08:00 ] 14.219.243.14 /D2/Home/Order/getOrder.html?status=all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000233s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 68  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_order` WHERE `uid` = 68 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_order` WHERE `uid` = 68 LIMIT 0,2   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_detail` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_detail` WHERE `oid` = '2017122110298525'  [ RunTime:0.0002s ]
+
+[ 2017-12-21T14:59:20+08:00 ] 14.219.243.14 /D2/Home/Login/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+
+[ 2017-12-21T14:59:20+08:00 ] 14.219.243.14 /D2/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+NOTIC: [8] Undefined index: vali_wrong_time /usr/local/apache/htdocs/D2/App/Runtime/Cache/Home/f9efffcb1f8dad4a722859c04e23de24.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003194s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003209s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000245s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000259s ]
+
+[ 2017-12-21T14:59:21+08:00 ] 14.219.243.14 /D2/Home/Login/showWeiBo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000240s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000258s ]
+
+[ 2017-12-21T14:59:25+08:00 ] 14.219.243.14 /D2/Home/Login/doWeiBo?code=f496507e91d07176396c97f07191a084
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+SQL: SHOW COLUMNS FROM `shop_user_auths` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user_auths` WHERE `login_name` = 2200143602 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-12-21T14:59:25+08:00 ] 14.219.243.14 /D2/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000231s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_friend_ship` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_friend_ship` WHERE `status` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_type` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_type` WHERE `name` = '男装' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `pid` = 22  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_banner` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_banner` WHERE `status` = 1 LIMIT 5   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `name` = '女装' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `pid` = 23  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name` FROM `shop_type` WHERE `pid` = 0  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_ads` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_ads` WHERE `status` = 1 ORDER BY id desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_ads` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user_auths` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_user_auths` WHERE `login_name` = 2200143602 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011740s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011758s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000293s ]
+
+[ 2017-12-21T14:59:26+08:00 ] 14.219.243.14 /D2/Home/ShopCar/shopcar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `shop_goods_info` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_shopcar` [ RunTime:0.0002s ]
+SQL: SELECT `shopcar` FROM `shop_shopcar` WHERE `uid` = 68 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: data /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 75 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT `role` FROM `shop_user` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-12-21T14:59:27+08:00 ] 14.219.243.14 /D2/Home/Order/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000250s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 68  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_order` WHERE `uid` = 68 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_order` WHERE `uid` = 68 LIMIT 0,2   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_detail` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_detail` WHERE `oid` = '2017122110298525'  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_order` WHERE `uid` = 68 AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_order` WHERE `uid` = 68 AND `status` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_order` WHERE `uid` = 68 AND `status` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_order` WHERE `uid` = 68 AND `status` = 5 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006736s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000278s ]
+
+[ 2017-12-21T14:59:28+08:00 ] 14.219.243.14 /D2/Home/ShopCar/shopcar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000251s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `shop_goods_info` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_shopcar` [ RunTime:0.0002s ]
+SQL: SELECT `shopcar` FROM `shop_shopcar` WHERE `uid` = 68 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: data /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 75 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT `role` FROM `shop_user` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-12-21T14:59:28+08:00 ] 14.219.243.14 /D2/Home/Order/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 68  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_order` WHERE `uid` = 68 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_order` WHERE `uid` = 68 LIMIT 0,2   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_detail` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_detail` WHERE `oid` = '2017122110298525'  [ RunTime:0.0002s ]
+
+[ 2017-12-21T14:59:29+08:00 ] 14.219.243.14 /D2/Home/Order/getOrder.html?status=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000249s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 68  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_order` WHERE `uid` = 68 AND `status` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_order` WHERE `uid` = 68 AND `status` = 3 LIMIT 0,2   [ RunTime:0.0002s ]
+
+[ 2017-12-21T14:59:29+08:00 ] 14.219.243.14 /D2/Home/Order/getOrder.html?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000239s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 68  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_order` WHERE `uid` = 68 AND `status` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_order` WHERE `uid` = 68 AND `status` = 2 LIMIT 0,2   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_detail` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_detail` WHERE `oid` = '2017122110298525'  [ RunTime:0.0002s ]
+
+[ 2017-12-21T14:59:30+08:00 ] 14.219.243.14 /D2/Home/Order/getOrder.html?status=all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 68  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_order` WHERE `uid` = 68 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_order` WHERE `uid` = 68 LIMIT 0,2   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_detail` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_detail` WHERE `oid` = '2017122110298525'  [ RunTime:0.0002s ]
+
+[ 2017-12-21T14:59:31+08:00 ] 14.219.243.14 /D2/Home/Login/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000238s ]
+
+[ 2017-12-21T14:59:31+08:00 ] 14.219.243.14 /D2/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000248s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000044s ]
+NOTIC: [8] Undefined index: vali_wrong_time /usr/local/apache/htdocs/D2/App/Runtime/Cache/Home/f9efffcb1f8dad4a722859c04e23de24.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003196s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000240s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000253s ]
+
+[ 2017-12-21T14:59:33+08:00 ] 14.219.243.14 /D2/Home/Index/showQQ.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000251s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /usr/local/apache/htdocs/D2/Api/Connect2.1/API/qqConnectAPI.php 第 2 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000232s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000251s ]
+
+[ 2017-12-21T14:59:39+08:00 ] 14.219.243.14 /D2/Home/Index/doQQLogin?code=D85E1953FA85D482E58D34DF09BE3022&state=b95a481264e80dbfcc920412fcea09f8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /usr/local/apache/htdocs/D2/Api/Connect2.1/API/qqConnectAPI.php 第 2 行.
+SQL: SHOW COLUMNS FROM `shop_user_auths` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user_auths` WHERE `login_name` = 'DE0B8F5A6695E127B3784D0685E28629' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-12-21T14:59:39+08:00 ] 14.219.243.14 /D2/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_friend_ship` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_friend_ship` WHERE `status` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_type` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_type` WHERE `name` = '男装' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `pid` = 22  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_banner` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_banner` WHERE `status` = 1 LIMIT 5   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `name` = '女装' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `pid` = 23  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name` FROM `shop_type` WHERE `pid` = 0  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_ads` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_ads` WHERE `status` = 1 ORDER BY id desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_ads` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user_auths` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_user_auths` WHERE `login_name` = 'DE0B8F5A6695E127B3784D0685E28629' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 64 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010608s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000280s ]
+
+[ 2017-12-21T14:59:39+08:00 ] 14.219.243.14 /D2/Home/ShopCar/shopcar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `shop_goods_info` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_shopcar` [ RunTime:0.0002s ]
+SQL: SELECT `shopcar` FROM `shop_shopcar` WHERE `uid` = 64 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: data /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 75 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT `role` FROM `shop_user` WHERE `id` = 64 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-12-21T14:59:41+08:00 ] 14.219.243.14 /D2/Home/Order/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000226s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 64  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_order` WHERE `uid` = 64 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_order` WHERE `uid` = 64 LIMIT 0,2   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_detail` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_detail` WHERE `oid` = '2017122049101554'  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_order` WHERE `uid` = 64 AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_order` WHERE `uid` = 64 AND `status` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_order` WHERE `uid` = 64 AND `status` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_order` WHERE `uid` = 64 AND `status` = 5 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006538s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006556s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000263s ]
+
+[ 2017-12-21T14:59:41+08:00 ] 14.219.243.14 /D2/Home/ShopCar/shopcar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000224s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `shop_goods_info` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_shopcar` [ RunTime:0.0002s ]
+SQL: SELECT `shopcar` FROM `shop_shopcar` WHERE `uid` = 64 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: data /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 75 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT `role` FROM `shop_user` WHERE `id` = 64 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-12-21T14:59:41+08:00 ] 14.219.243.14 /D2/Home/Order/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000224s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 64  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_order` WHERE `uid` = 64 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_order` WHERE `uid` = 64 LIMIT 0,2   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_detail` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_detail` WHERE `oid` = '2017122049101554'  [ RunTime:0.0001s ]
+
+[ 2017-12-21T14:59:43+08:00 ] 14.219.243.14 /D2/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_friend_ship` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_friend_ship` WHERE `status` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_type` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_type` WHERE `name` = '男装' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `pid` = 22  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_banner` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_banner` WHERE `status` = 1 LIMIT 5   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `name` = '女装' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `pid` = 23  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name` FROM `shop_type` WHERE `pid` = 0  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_ads` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_ads` WHERE `status` = 1 ORDER BY id desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_ads` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user_auths` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user_auths` WHERE `login_name` = 'DE0B8F5A6695E127B3784D0685E28629' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 64 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010679s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000301s ]
+
+[ 2017-12-21T14:59:44+08:00 ] 14.219.243.14 /D2/Home/ShopCar/shopcar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000266s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `shop_goods_info` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_shopcar` [ RunTime:0.0002s ]
+SQL: SELECT `shopcar` FROM `shop_shopcar` WHERE `uid` = 64 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: data /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 75 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT `role` FROM `shop_user` WHERE `id` = 64 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-12-21T14:59:45+08:00 ] 14.219.243.14 /D2/Home/Index/index.html?model=hotsale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000239s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_friend_ship` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_friend_ship` WHERE `status` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_type` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_type` WHERE `name` = '男装' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `pid` = 22  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_banner` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_banner` WHERE `status` = 1 LIMIT 5   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `name` = '女装' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `pid` = 23  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name` FROM `shop_type` WHERE `pid` = 0  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_ads` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_ads` WHERE `status` = 1 ORDER BY id desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_ads` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`pic` FROM `shop_goods`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_goods` WHERE `status` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_goods` WHERE `status` = 2 ORDER BY buynum LIMIT 0,6   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_goods` WHERE `status` = 4 ORDER BY addtime LIMIT 5   [ RunTime:0.0002s ]
+
+[ 2017-12-21T14:59:45+08:00 ] 14.219.243.14 /D2/Home/Index/getBrand.html?tid=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000220s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_brand_type` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_brand_type` WHERE `tid` = 25  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_goods` WHERE `tid` = 25  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_brand` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_brand` WHERE `id` = 21 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_brand` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_brand` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_brand` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_brand` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_brand` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_brand` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-12-21T14:59:45+08:00 ] 14.219.243.14 /D2/Home/Index/getBrand.html?tid=28
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000267s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_brand_type` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_brand_type` WHERE `tid` = 28  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_goods` WHERE `tid` = 28  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `shop_brand` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_brand` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_brand` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_brand` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_brand` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_brand` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_brand` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-12-21T14:59:45+08:00 ] 14.219.243.14 /D2/Home/Index/index.html?model=hotsale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000231s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_friend_ship` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_friend_ship` WHERE `status` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_type` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_type` WHERE `name` = '男装' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `pid` = 22  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_banner` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_banner` WHERE `status` = 1 LIMIT 5   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `name` = '女装' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `pid` = 23  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name` FROM `shop_type` WHERE `pid` = 0  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_ads` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_ads` WHERE `status` = 1 ORDER BY id desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_ads` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`pic` FROM `shop_goods`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_goods` WHERE `status` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_goods` WHERE `status` = 2 ORDER BY buynum LIMIT 0,6   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_goods` WHERE `status` = 4 ORDER BY addtime LIMIT 5   [ RunTime:0.0002s ]
+
+[ 2017-12-21T14:59:46+08:00 ] 14.219.243.14 /D2/Home/Goods/detail.html?id=150
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_goods_assess` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_goods_assess` WHERE `gid` = 150 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_goods_assess` WHERE `gid` = 150 ORDER BY addtime desc LIMIT 5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+NOTIC: [8] Memcache::connect(): Server localhost (tcp 11211, udp 0) failed with: No route to host (113) /usr/local/apache/htdocs/D2/ThinkPHP/Library/Think/Cache/Driver/Memcache.class.php 第 43 行.
+NOTIC: [2] Memcache::connect(): Can't connect to localhost:11211, No route to host (113) /usr/local/apache/htdocs/D2/ThinkPHP/Library/Think/Cache/Driver/Memcache.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `shop_type` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0003s ]
+SQL: UPDATE `shop_goods` SET `clicknum`=clicknum+1 WHERE `id` = 150 [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `shop_goods_info` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `shop_goods_pic` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: redis /usr/local/apache/htdocs/D2/App/Home/Controller/GoodsController.class.php 第 403 行.
+SQL: SELECT * FROM `shop_goods` WHERE `id` = 150 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_goods_info` WHERE `gid` = 150  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_goods_pic` WHERE `gid` = 150  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: disabled /usr/local/apache/htdocs/D2/App/Home/Controller/GoodsController.class.php 第 423 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_goods_assess` WHERE `gid` = 150 AND `feel` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_goods_assess` WHERE `gid` = 150 AND `feel` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_goods_assess` WHERE `gid` = 150 AND `feel` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_type` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user_collect` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user_collect` WHERE `gid` = 150 AND `uid` = 64  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: disabled /usr/local/apache/htdocs/D2/App/Home/Controller/GoodsController.class.php 第 452 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Undefined variable: search /usr/local/apache/htdocs/D2/App/Runtime/Cache/Home/d7ce7c37daad1d3e356d97433c4331e1.php 第 83 行.
+NOTIC: [8] Undefined offset: 3 /usr/local/apache/htdocs/D2/App/Runtime/Cache/Home/d7ce7c37daad1d3e356d97433c4331e1.php 第 282 行.
+NOTIC: [8] Undefined offset: 3 /usr/local/apache/htdocs/D2/App/Runtime/Cache/Home/d7ce7c37daad1d3e356d97433c4331e1.php 第 282 行.
+NOTIC: [2] Division by zero /usr/local/apache/htdocs/D2/App/Runtime/Cache/Home/d7ce7c37daad1d3e356d97433c4331e1.php 第 407 行.
+NOTIC: [2] Division by zero /usr/local/apache/htdocs/D2/App/Runtime/Cache/Home/d7ce7c37daad1d3e356d97433c4331e1.php 第 414 行.
+NOTIC: [2] Division by zero /usr/local/apache/htdocs/D2/App/Runtime/Cache/Home/d7ce7c37daad1d3e356d97433c4331e1.php 第 418 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009395s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000335s ]
+
+[ 2017-12-21T14:59:46+08:00 ] 14.219.243.14 /D2/Home/ShopCar/shopcar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000233s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `shop_goods_info` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `shop_shopcar` [ RunTime:0.0002s ]
+SQL: SELECT `shopcar` FROM `shop_shopcar` WHERE `uid` = 64 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: data /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 75 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT `role` FROM `shop_user` WHERE `id` = 64 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-12-21T14:59:46+08:00 ] 14.219.243.14 /D2/Home/Goods/detail.html?id=150&attr=%E9%A2%9C%E8%89%B2%3A%E9%BB%91%E8%89%B2%2C%E5%B0%BA%E7%A0%81%3A55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_goods_assess` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_goods_assess` WHERE `gid` = 150 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_goods_assess` WHERE `gid` = 150 ORDER BY addtime desc LIMIT 5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `shop_goods_info` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_goods` WHERE `id` = 150 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_goods_info` WHERE `gid` = 150 AND `attr` = '颜色:黑色,尺码:55' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-12-21T14:59:47+08:00 ] 14.219.243.14 /D2/Home/ShopCar/addToCart.html?gid=150&info=%E9%A2%9C%E8%89%B2%3A%E9%BB%91%E8%89%B2%2C%E5%B0%BA%E7%A0%81%3A55&buyNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000251s ]
+SQL: SHOW COLUMNS FROM `shop_goods_info` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`stock` FROM `shop_goods_info` WHERE `gid` = 150 AND `attr` = '颜色:黑色,尺码:55' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_shopcar` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_shopcar` WHERE `uid` = 64 LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `shop_shopcar` (`shopcar`,`uid`) VALUES ('{\"150_184\":{\"buyNum\":\"1\"}}','64') [ RunTime:0.0035s ]
+
+[ 2017-12-21T14:59:47+08:00 ] 14.219.243.14 /D2/Home/ShopCar/shopcar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `shop_goods_info` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `shop_shopcar` [ RunTime:0.0003s ]
+SQL: SELECT `shopcar` FROM `shop_shopcar` WHERE `uid` = 64 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`givescore`,`pic`,`status` FROM `shop_goods` WHERE `id` = 150 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`gid`,`attr`,`price` FROM `shop_goods_info` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT `role` FROM `shop_user` WHERE `id` = 64 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-12-21T14:59:48+08:00 ] 14.219.243.14 /D2/Home/ShopCar/shopcar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `shop_goods_info` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `shop_shopcar` [ RunTime:0.0002s ]
+SQL: SELECT `shopcar` FROM `shop_shopcar` WHERE `uid` = 64 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`givescore`,`pic`,`status` FROM `shop_goods` WHERE `id` = 150 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`gid`,`attr`,`price` FROM `shop_goods_info` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT `role` FROM `shop_user` WHERE `id` = 64 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-12-21T14:59:48+08:00 ] 14.219.243.14 /D2/Home/ShopCar/shopcar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000238s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `shop_goods_info` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_shopcar` [ RunTime:0.0003s ]
+SQL: SELECT `shopcar` FROM `shop_shopcar` WHERE `uid` = 64 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name`,`givescore`,`pic`,`status` FROM `shop_goods` WHERE `id` = 150 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`gid`,`attr`,`price` FROM `shop_goods_info` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT `role` FROM `shop_user` WHERE `id` = 64 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-12-21T14:59:48+08:00 ] 14.219.243.14 /D2/Home/ShopCar/shopcar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000225s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `shop_goods_info` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_shopcar` [ RunTime:0.0002s ]
+SQL: SELECT `shopcar` FROM `shop_shopcar` WHERE `uid` = 64 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`givescore`,`pic`,`status` FROM `shop_goods` WHERE `id` = 150 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`gid`,`attr`,`price` FROM `shop_goods_info` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT `role` FROM `shop_user` WHERE `id` = 64 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005136s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000291s ]
+
+[ 2017-12-21T14:59:50+08:00 ] 14.219.243.14 /D2/Home/Order/orderConfirm/ids/150_184
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000259s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 64  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_shopcar` [ RunTime:0.0002s ]
+SQL: SELECT `shopcar` FROM `shop_shopcar` WHERE `uid` = 64 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_goods_info` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_goods_info` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_goods` WHERE `id` = 150 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_goods` WHERE `id` = 150 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 64 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user_address` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user_address` WHERE `uid` = 64 AND `status` = 0  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user_address` WHERE `uid` = 64 AND `status` = 1  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005982s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000291s ]
+
+[ 2017-12-21T14:59:52+08:00 ] 14.219.243.14 /D2/Home/order/orderSuccess.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 64  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_shopcar` [ RunTime:0.0002s ]
+SQL: SELECT `shopcar` FROM `shop_shopcar` WHERE `uid` = 64 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_goods_info` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_goods_info` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_goods` WHERE `id` = 150 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_goods` WHERE `id` = 150 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_goods` WHERE `id` = 150 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 64 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0003s ]
+SQL: INSERT INTO `shop_order` (`message`,`receiver`,`phone`,`address`,`total`,`getScore`,`addtime`,`uid`,`oid`,`exptime`) VALUES ('','一个哥哥过','15816802799','山西晋城市陵川县 刚好黄金回购 523957','777','777','1513839592','64','2017122156485751','1513925992') [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_goods_info` WHERE `gid` = 150 AND `attr` = '颜色:黑色,尺码:55' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_detail` [ RunTime:0.0003s ]
+SQL: INSERT INTO `shop_detail` (`gid`,`attr`,`price`,`name`,`pic`,`num`,`oid`) VALUES ('150','颜色:黑色,尺码:55','777','时尚休闲短款修身羽绒','517958_ecd73e4756a3ac954ffab34d378a5b6a5a12b19a00dd0.jpg','1','2017122156485751') [ RunTime:0.0001s ]
+SQL: UPDATE `shop_goods_info` SET `stock`=stock-1 WHERE `id` = 184 [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_shopcar` WHERE `uid` = 64 LIMIT 1   [ RunTime:0.0001s ]
+SQL: DELETE FROM `shop_shopcar` WHERE `uid` = 64 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003865s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003884s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000278s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000295s ]
+
+[ 2017-12-21T14:59:52+08:00 ] 14.219.243.14 /D2/Home/order/theme/bank/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+
+[ 2017-12-21T14:59:52+08:00 ] 14.219.243.14 /D2/Home/order/theme/bank/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+
+[ 2017-12-21T14:59:53+08:00 ] 14.219.243.14 /D2/Home/Order/paySuccess.html?mark=true&oid=2017122156485751
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 64  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0003s ]
+SQL: UPDATE `shop_order` SET `status`='2' WHERE `oid` = '2017122156485751' [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 64 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_order` WHERE `oid` = '2017122156485751' LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `shop_user` SET `score`='2331' WHERE `id` = 64 [ RunTime:0.0029s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 64 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000017s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000033s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003205s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000271s ]
+
+[ 2017-12-21T14:59:54+08:00 ] 14.219.243.14 /D2/Home/Order/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000243s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 64  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_order` WHERE `uid` = 64 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_order` WHERE `uid` = 64 LIMIT 0,2   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_detail` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_detail` WHERE `oid` = '2017122049101554'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_detail` WHERE `oid` = '2017122156485751'  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_order` WHERE `uid` = 64 AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_order` WHERE `uid` = 64 AND `status` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_order` WHERE `uid` = 64 AND `status` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_order` WHERE `uid` = 64 AND `status` = 5 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000268s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000285s ]
+
+[ 2017-12-21T14:59:54+08:00 ] 14.219.243.14 /D2/Home/ShopCar/shopcar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000233s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `shop_goods_info` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_shopcar` [ RunTime:0.0002s ]
+SQL: SELECT `shopcar` FROM `shop_shopcar` WHERE `uid` = 64 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: data /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 75 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /usr/local/apache/htdocs/D2/App/Home/Controller/ShopCarController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT `role` FROM `shop_user` WHERE `id` = 64 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-12-21T14:59:54+08:00 ] 14.219.243.14 /D2/Home/Order/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `shop_index_seo` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_index_seo`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 64  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_order` WHERE `uid` = 64 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_order` WHERE `uid` = 64 LIMIT 0,2   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_detail` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_detail` WHERE `oid` = '2017122049101554'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_detail` WHERE `oid` = '2017122156485751'  [ RunTime:0.0001s ]
+

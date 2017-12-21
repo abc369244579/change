@@ -1,0 +1,2 @@
+<?php die('forbidden'); ?>
+{"appid":"101450850","appkey":"6f24cbba7a861b44b326b757dbc27892","callback":"http://www.aijinyong.cn/D2/Home/Index/doQQLogin","scope":"get_user_info","errorReport":true,"storageType":"file","host":"localhost","user":"root","password":"root","database":"test"}

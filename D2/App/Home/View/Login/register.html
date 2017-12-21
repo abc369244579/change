@@ -1,0 +1,493 @@
+<!doctype html>
+<html>
+ <head>
+	<meta charset="UTF-8">
+	<meta name="Generator" content="EditPlus®">
+	<meta name="Author" content="">
+	<meta name="Keywords" content="">
+	<meta name="Description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE"> 
+	<meta name="renderer" content="webkit">
+	<title>用户注册</title>
+    <link rel="shortcut icon" type="image/x-icon" href="__PUBLIC__/Home-icon/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home-css/base.css">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home-css/login.css">
+    
+    <script src="__PUBLIC__/Home-js/jquery-3.1.1.min.js"></script>
+ </head>
+  <style>
+        .passwordStrength .bgStrength{
+            color:#fff;
+            background-color: #71b83d;
+        }
+        .passwordStrength span{
+            width:45px;
+            text-align: center;
+            border-right: 1px solid #fff;
+            background-color:#d0d0d0;
+            /*vertical-align: middle;*/
+            /*height: 16px;*/
+        }
+        .passwordStength b,.passwordStrength span{
+            display: inline-block;
+            vertical-align: middle;
+            line-height:16px;
+            height:16px;
+            font-size: 16px;
+        }
+        .passwordStrength{
+            position:relative;
+            margin-top:54px;
+            margin-left: 188px;
+        }
+        b{
+            font-size: 14px;
+
+        }
+        .login-button button{
+            width: 270px;
+            height: 45px;
+            line-height: 45px;
+            text-align: center;
+            background: #ea4949;
+            border-radius: 2px;
+            display: block;
+            color: #ffffff;
+            font-size: 16px;
+            border:0px;
+        }
+    </style>
+ <body>
+
+<!--- header begin-->
+<header id="pc-header">
+    <div class="login-header" style="padding-bottom:0">
+        <div><h1><a href="{:U('Index/index')}"><img src="__PUBLIC__/Home-icon/logo.png"></a></h1></div>
+    </div>
+</header>
+<!-- header End -->
+<section id="login-content">
+    <div class="login-centre">
+        <div class="login-switch clearfix">
+            <p class="fr">我已经注册，现在就 <a href="{:U('Login/login')}">登录</a></p>
+        </div>
+        <div style="width:400px;height:54px;position: relative;margin:0 auto">   
+            <div class="putong">
+                <a id="n1">手机注册</a>
+            </div>
+            <div class="shouji">
+                <a id="n2">普通注册</a>
+            </div>
+        </div>
+        <style>
+            .putong{
+                float:left;
+                width:200px;
+                height:54px;
+                background:#ea4949;
+            }
+            .shouji{
+                float:left;
+                width:200px;
+                height:54px;
+                background:#ea4949;
+            }
+            #n1 {
+                display: block;
+                width:99%;
+
+                height: 54px;
+                line-height: 54px;
+                border-right: 1px solid #fff4f4;
+                text-decoration: none;
+                color:#ffffff;
+                font-size:16px;
+                text-align: center;
+            }
+            #n2 {
+                display: block;
+                width:99%;
+                height: 54px;
+                line-height: 54px;
+                border-right: 1px solid #fff4f4;
+                text-decoration: none;
+                color:#ffffff;
+                font-size:16px;
+                text-align: center;
+            }
+            #putong-re{
+                display: none;
+            }
+        </style>
+        <div class="login-back" id="phone-re">
+            <div class="H-over1">
+                <form action="" class="register-form" method="post" onsubmit="return check()">
+                    <div style="position:relative;margin-left:270px;">
+                        <span style="font-size:16px;" id="checkPhone"></span>
+                    </div>
+                    <div class="login-input">
+                        <label><i class="heart">*</i>手机：</label>
+                        <input type="text" class="list-iphone" id="iphone" placeholder="请输入有效的手机号码,稍后将发送短信到您的手机" name="phone">
+                    </div>
+                    <div style="position:relative;margin-left:270px;">
+                        <span style="font-size:16px;" id="checkPass2"></span>
+                    </div>
+                    <div class="login-input">
+                        <label><i class="heart">*</i>请设置密码：</label>
+                         <input plugin="passwordStrength" nullmsg="请填写密码" datatype="*6-20" errormsg="请输入长度大于6位的密码" placeholder="请输入密码,密码长度至少大于6位" id="pass" name="password" class="form-control" type="password" onblur="checkPass()">
+                        <div class="passwordStrength" style="display: none;">
+                            <b>密码强度：</b> <span>弱</span><span>中</span><span class="last">强</span></div>
+                            <span class="Validform_checktip"></span>
+                        </div>
+                    </div>
+                    <div style="position:relative;margin-left:270px;">
+                        <span style="font-size:16px;" id="checkPass"></span>
+                    </div>
+                    <div class="login-input">
+                        <label><i class="heart">*</i>请确认密码：</label>
+                        <input type="password" class="list-input" id="password2" name="password2" placeholder="请输入密码,密码长度至少大于6位" onblur="checkPass()">
+                    </div>
+                    <div style="position:relative;margin-left:270px;">
+                        <span style="font-size:16px;" id="checkCode_a"></span>
+                    </div>
+                    <div class="login-input">
+                        <label><i class="heart">*</i>验证码：</label>
+                        <input type="text" class="list-iphone" id="verify" placeholder="请输入有效验证码">
+                        <input style="cursor: pointer;text-align: center;line-height: 26px;width: 115px;height: 40px;background:#ea4949;border-radius:2px;color:#ffffff;border:0px" value="发送验证码" id="code" autocomplete="off">
+                    </div>
+                    <div class="login-button" >
+                        <button id="AdminCode" style="margin:0 90px">立即注册</button>
+                    </div>
+                </form>
+            </div>
+        <div class="login-back" id="putong-re">
+            <div class="H-over2">
+                <form action="{:U('Login/register2')}" class="register-form" method="post" onsubmit="return checkCode2()">
+                    <div style="position:relative;margin-left:270px;">
+                        <span style="font-size:16px;" id="check"></span>
+                    </div>
+                    <div class="login-input">
+                        <label><i class="heart">*</i>用户名：</label>
+                        <input type="text" class="list-input1" id="username2" name="username" placeholder="字母数字下划线6-12位">
+                    </div>
+                    <div style="position:relative;margin-left:270px;">
+                        <span style="font-size:16px;" id="checkPass3"></span>
+                    </div>
+                    <div class="login-input">
+                        <label><i class="heart">*</i>请设置密码：</label>
+                         <input plugin="passwordStrength" nullmsg="请填写密码" datatype="*6-20" errormsg="请输入长度大于6位的密码" placeholder="请输入密码,密码长度至少大于6位" id="pass3" name="password" class="form-control" type="password">
+                        <div class="passwordStrength" style="display: none;">
+                            <b>密码强度：</b> <span>弱</span><span>中</span><span class="last">强</span></div>
+                            <span class="Validform_checktip"></span>
+                        </div>
+                    </div>
+                    <div style="position:relative;margin-left:270px;">
+                        <span style="font-size:16px;" id="checkPass4"></span>
+                    </div>
+                    <div class="login-input">
+                        <label><i class="heart">*</i>请确认密码：</label>
+                        <input type="password" class="list-input" id="password3" name="password2" placeholder="请输入密码,密码长度至少大于6位">
+                    </div>
+                    <div class="login-button" >
+                        <button id="AdminCode" style="margin:0 90px">立即注册</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+        <script>
+            $('#n2').click(function(){
+                $('#phone-re').css('display','none');
+                $('#putong-re').css('display','block');
+            })
+            $('#n1').click(function(){
+                $('#phone-re').css('display','block');
+                $('#putong-re').css('display','none');
+            })
+        </script>
+                <script>
+                var result = false;
+                var result_a = false;
+                var result_phone = false;
+
+                var result2_a = false;
+                var result2_b = false;
+                function checkCode2(){
+                    return result2_a && result2_b;
+                }
+                    $('#pass3,#password3').change(function(){
+
+                            var password = $('#pass3').val();
+                            var password2 = $('#password3').val();
+                            $.ajax({
+                                url:'{:U("User/checkPass")}',
+                                async:false,
+                                data:{password:password,password2:password2},
+                                success:function(res){
+                                    if(res.status == 0){
+                                        $('#checkPass4').html(res.msg);
+                                        $('#checkPass4').attr('style','color:red');
+                                        result2_b = false;
+                                    } else if(res.status == 1){
+                                        $('#checkPass4').html(res.msg);
+                                        $('#checkPass4').attr('style','color:red');
+                                        result2_b = false;
+                                    } else if(res.status == 2){
+                                        $('#checkPass4').html(res.msg);
+                                        $('#checkPass4').attr('style','color:green');
+                                        result2_b = true;
+                                    }
+                                }
+
+                            });
+                    })
+                function checkPass(){
+                            var password = $('#pass').val();
+                            var password2 = $('#password2').val();
+
+                            $.ajax({
+                                url:'{:U("User/checkPass")}',
+                                async:false,
+                                data:{password:password,password2:password2},
+                                success:function(res){
+                                    if(res.status == 0){
+                                        $('#checkPass').html(res.msg);
+                                        $('#checkPass').attr('style','color:red');
+                                        result_a = false;
+                                    } else if(res.status == 1){
+                                        $('#checkPass').html(res.msg);
+                                        $('#checkPass').attr('style','color:red');
+                                        result_a = false;
+                                    } else if(res.status == 2){
+                                        $('#checkPass').html(res.msg);
+                                        $('#checkPass').attr('style','color:green');
+                                        result_a = true;
+                                    }
+
+                                }
+
+                            });
+                        }
+                //发送验证码
+                    $('#code').click(function(){
+                        var phone = $('#iphone').val();
+                        $.ajax({
+                            url:'{:U("Login/send_message")}',
+                                data:{phone:phone},
+                                success:function(res){
+                                    if(res.status == 2){
+                                        $('#checkPhone').html(res.info);
+                                        $('#checkPhone').attr('style','color:red');
+                                        $("#code").css('style','disabled');
+                                        $("#code").css('style','disabled');
+                                    } else if(res.status == 0){
+                                        $('#checkPhone').html(res.info);
+                                        $('#checkPhone').attr('style','color:red');
+                                        $("#code").css('style','disabled');
+                                    } else if(res.status == 1){
+                                        test();
+                                    }
+                                }
+                        })
+                    });
+                    //倒数
+                    function test(){
+                        var i=60;
+                        var timer=setInterval(function(){
+                            i--;
+                            $("#code").val(i+'(s)');
+                            if(i<0){
+                                clearInterval(timer);
+                                $("#code").val('重新发送');
+                            }
+                        },1000);
+                    };
+                    //ajax验证手机号码是否合法，存在
+                        $('#iphone').change(function(){
+                            var phone = $('#iphone').val();
+                            $.ajax({
+                                url:'{:U("Login/checkPhone")}',
+                                async:false,
+                                data:{phone:phone},
+                                success:function(res){
+                                    if(res.status == 2){
+                                        $('#checkPhone').html(res.info);
+                                        $('#checkPhone').attr('style','color:red');
+                                        $("#code").attr('disabled',true);
+                                        $('#code').css('background','gray');
+                                        result_phone = false;
+                                    } else if(res.status == 0){
+                                        $('#checkPhone').html(res.info);
+                                        $('#checkPhone').attr('style','color:red');
+                                        $("#code").attr('disabled',true);
+                                         $('#code').css('background','gray');
+                                        result_phone = false;
+
+                                    } else if(res.status == 1){
+                                        $('#checkPhone').html(res.info);
+                                        $('#checkPhone').attr('style','color:green');
+                                         $("#code").attr('disabled',false);
+                                         $('#code').css('background','#ea4949');
+                                        result_phone = true;
+
+                                    }
+                                }
+                            })
+                        });
+
+                        function checkEmail(obj){
+                            $.ajax({
+                                url:'{:U("User/checkEmail")}',
+                                data:'email='+obj.value,
+                                success:function(res){
+                                    if(res.status == 0){
+                                        $('#checkEmail').html(res.msg);
+                                        $('#checkEmail').attr('style','color:red');
+                                    } else if(res.status == 1){
+                                        $('#checkEmail').html(res.msg);
+                                        $('#checkEmail').attr('style','color:green');
+                                    } else if(res.status == 2){
+                                        $('#checkEmail').html(res.msg);
+                                        $('#checkEmail').attr('style','color:red');
+                                    }
+                                }
+                            })
+                        }
+
+                        $('#username2').change(function(){
+                                var username = $('#username2').val();
+                            $.ajax({
+                                url:'{:U("User/checkName")}',
+                                async:false,
+                                data:'username='+username,
+                                success:function(res){
+                                    if(res.status == 0){
+                                        $('#check').html(res.msg);
+                                        $('#check').attr('style','color:red');
+                                        result2_a = false;
+                                    } else if(res.status == 1){
+                                        $('#check').html(res.msg);
+                                        $('#check').attr('style','color:green');
+                                        result2_a = true;
+                                    } else if(res.status == 2) {
+                                        $('#check').html(res.msg);
+                                        $('#check').attr('style','color:red');
+                                        result2_a = false;
+                                    }
+                                }
+                            });
+                        })
+
+                    function check(){
+                        return result&&result_a&&result_phone;
+                    }
+                    $('#verify').change(function(){
+                            
+                    //提交时验证，防止自动提交
+                        var code = $('#verify').val();
+                        var phone = $('#iphone').val();
+                        $.ajax({
+                            url:'{:U("Login/checkCode")}',
+                            async:false, 
+                            data:{'code':code,'phone':phone},
+                            success:function(res){
+                                if(res.status){
+                                    $('#checkCode_a').html(res.info);
+                                    $('#checkCode_a').attr('style','color:green');
+                                    result = true;
+                                } else{
+                                    $('#checkCode_a').html(res.info);
+                                    $('#checkCode_a').attr('style','color:red');
+                                    result = false;
+                                }
+                            }
+                        });
+                   });
+                    
+                    
+                </script>
+             
+    </div>
+</section>
+
+<!--- footer begin-->
+<footer id="footer">
+    <div class="containers">
+        <div class="w" style="padding-top:30px">
+            <div id="footer-2013">
+                <div class="links">
+                    <a href="">关于我们</a>
+                    |
+                    <a href="">联系我们</a>
+                    |
+                    <a href="">人才招聘</a>
+                    |
+                    <a href="">商家入驻</a>
+                    |
+                    <a href="">广告服务</a>
+                    |
+                    <a href="">手机京东</a>
+                    |
+                    <a href="">友情链接</a>
+                    |
+                    <a href="">销售联盟</a>
+                    |
+                    <a href="">English site</a>
+                </div>
+                <div style="padding-left:10px">
+                    <p style="padding-top:10px; padding-bottom:10px; color:#999">网络文化经营许可证：浙网文[2013]0268-027号| 增值电信业务经营许可证：浙B2-20080224-1</p>
+                    <p style="padding-bottom:10px; color:#999">信息网络传播视听节目许可证：1109364号 | 互联网违法和不良信息举报电话:0571-81683755</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</footer>
+<!-- footer End -->
+</body>
+</html>
+<script src="__PUBLIC__/Home-js/Validform_v5.js"></script>
+<script src="__PUBLIC__/Home-js/passwordStrength-min.js"></script>
+ <script>
+        $(".register-form").Validform({
+            tiptype:3,
+            usePlugin: {
+             passwordstrength:{
+                 minLen:6,
+                 maxLen:50,
+                 trigger:function(obj,error){
+                 //该表单元素的keyup和blur事件会触发该函数的执行;
+                 //obj:当前表单元素jquery对象;
+                 //error:所设密码是否符合验证要求，验证不能通过error为true，验证通过则为false;
+
+                     if(error){
+                         obj.parent().find(".Validform_checktip").show();
+                         obj.parent().find(".passwordStrength").hide();
+                     }else{
+                         obj.parent().find(".Validform_checktip").hide();
+                         obj.parent().find(".passwordStrength").show();
+                     }
+                 }
+             }
+           },
+            beforeSubmit:function(curform){
+                //在验证成功后，表单提交前执行的函数，curform参数是当前表单对象。
+                //这里明确return false的话表单将不会提交;
+
+//                console.log( curform.find( $('.bgStrength') ) );
+                var passText = curform.find( $('.bgStrength') ).text();
+
+                if (passText == '弱') {
+                    layer.msg('密码强度不够，不能注册。请在密码中加入特殊符号！', {
+                        icon: 5,
+                        time: 4000,
+                        closeBtn: 1,
+                        anim:2
+                    });
+//                    alert('密码强度不够，不能注册');
+                    return false;
+                }
+
+            },
+        });
+</script>
